@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADDRESS</title>
+    <link rel="stylesheet" href="address.css">
+    <style>
+        * {
+        margin: 0px;
+      }
+      
+        #upar {
+        width: 100%;
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        display: flex;
+        margin-bottom: 30px;
+      }
+      #logo {
+        height: 60%;
+        display: flex;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      .checkout {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        align-items: center;
+        margin-left: 26%;
+      }
+      #safe {
+        display: flex;
+        justify-content: right;
+        margin-left: 300px;
+        align-items: center;
+      }
+      #safe > img {
+        height: 60%;
+      }
+      
+    </style>
+</head>
+<body>
+    <div id="upar">
+        <a href="index.html"><img
+          id="logo"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEUAAAD////T09PExMTp6ek/Pz/19fUcHBx8fHzIyMhDQ0NnZ2eXl5eNjY0mJibs7Ox4eHji4uJNTU3c3NylpaUfHx/Q0NC5ubmrq6sQEBBycnKDg4M5OTltbW1ZWVkYGBgtLS2SkpJdXV2fn59ISEi8vLwyMjJaWlpRUVEnvG3iAAAEUklEQVR4nO3caXeiMBiGYbBKwaqouNalWrHj//+FQxIMhE3PcYntua9PENTJIxLCCx3HAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATzYwTWXjt2+aWu7kLaauKZKtQaG1a7mXt3j3zCwt2fpWSNix3MtbkJCEr4+EJHx9JCTh6yMhCV8fCUn4+khIwtdHQuXPV6K831xNLIapTDix3McbjS4mPFru4a0G4YWEM8sdvN24OWHbcvfuYdOU0NvZ7dx99BoSflju253MaxP2Lffsblo1CeeW+3U/y3Zlwshyt+5p4FUkbC8t9+quTuWEf2MYzfilhCfLPbq7QyGhb7k/DxAYCReWe/MQUS7hm+W+PMY01AlHlrvyKOM0YfC7r3mbDNUkZji23A8AAJ4jufR7LzRNiw3X6Ixja7ODVtuUTcQ6i5E7ESW2aJ9/w6l0ST8P22qSM8p/UPiZbh4sVDnZC+xch5wLE1raHssngCfOh+zcKntDnM7ZMskrQ7lgflCa55BrClfO84VugWruq5WF81ksNsVuMWJwLghXJTyajRYuRlb9AtmqCofRfu289wNZnNFV+26p9qQT9vIOsWiS31TU25y2/tFzX+f2zUT0K4jTtYFc1XdeomLEoKGoL34im3T5q+d69+/rlQaH3iG7hSuPvWFu81Z8/eey79eoELEhYWzutq29mkc391Wr0efb2N7JF9WWIuIoqyE2JPxOXvka11giob734FccL33d9tNx3mVEve1CwmHNtucyEiYHmleq8kbnYbYrnkgQEXUluCHhWuz7l9iJRkK36obu/vzL7bhe11mKwKN0dtM00rTUmBzXbX+afMKxW3UzSYwZPbGQHJJJRLlP2ypi09niJ70P4B0t/1lUPuFn9bHjpsXRTnoyF3unPRAtNWd89Rm7mW6IDj+PT1Inn3CYLH+WX1JMqCKKvdiYMPnsRTZvsldAzif8cKtq9eLP1w5iQSd0xN4RBUWdsB3meJvcm1fzdP5r7YGGfMJB5eRK5Jbz5iyhjBjuGkeazNqXlxj7y698CGMs9apueoqZ6k4s5BKqiF9v1z6K0TNOo89lJFyUpjTJmKg7l08ob9OE0dUPm4hD19JoYyQcV3zVs/OP1Eyo7wNf98+InWjpCUYjofxFBsb2RTbZNhOmEWsTtnv5taO95/vMhEsxvEfZw5RLGSOdlxQSqkvcuoTJTCgY6LWTxcHUTChXk+vxf3JlPZHzkvMpsphQ7vG6hOokqL4rdZm5qXnloxUSOrE6SXt9Z5uervUcoJRQRFQJvTz5jr16c9iatdQJ0dqjN8WEzjJI5yDqcbbRWm8pJ0yO0to5zdasA9l7tqiUMBlRZzphtCm8tFgyWzTU2lbZo6nR9mEBLpqufL90otptJkPnNB+a4/vU9/3SiN+X14rG/7Cw0rs9Xs2DWTBf/ebnwAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8Vf8BaG8u3mbijM4AAAAASUVORK5CYII="
+          alt="pic"
+        /></a>
+        <ol class="checkout">
+          <li class="step1 active">BAG</li>
+          <li class="divider">---------</li>
+          <li class="step2" style="color: teal;">ADDRESS</li>
+          <li class="divider">---------</li>
+          <li class="step step3">PAYMENT</li>
+        </ol>
+        <div id="safe">
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt="pics"
+          />
+          <p>100% Secure</p>
+        </div>
+      </div>
+      
+    <div class="container">
+        <form id="form" action="" >
+            <label for="contact_details">CONTACT DETAILS</label>
+            <br>
+            <input id="name" type="text" placeholder="Name">
+            <input id="number" type="text" placeholder="Mobile No">
+            <br>
+            <label for="address">ADDRESS</label>
+            <br>
+            <input id="pin" type="text" placeholder="Pin Code">
+            <br>
+            <input id="address" type="text" placeholder="Address(House No, Building, Street, Area)">
+            <br>
+            <input  id="town" type="text" placeholder="Locality / Town">
+            <br>
+            <div class="city">
+                <input id="city" type="text" placeholder="City / District">
+                <input id="state" type="text" placeholder="State">
+            </div>
+            <br>
+            <label for="saveAddress">SAVE ADDRESS AS</label>
+            <br><br>
+            <div>
+                <button>Home</button>
+                <button>Work</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="cbox">Make this my default address</label>
+            </div>
+            <div class="submit">
+            <input type="submit" value="ADD ADDRESS">
+            </div>
+        </form>
+        <div class="info">
+            <h4>PRICE DETAILS</h4>
+            <br>
+            <div>
+                <p>Total MRP</p>
+                <p class="mrp"></p>
+            </div>
+            <br>
+            <div>
+                <p>Discount on MRP</p>
+                <p class="discount"></p>
+            </div>
+            <br>
+            <div>
+                <p>Convenience Fee</p>
+                <p>Free</p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <p>Total Amount</p>
+                <p class="total"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    let price_obj = JSON.parse(localStorage.getItem("price_obj"))
+    let form = document.getElementById("form")
+    let mrp = document.querySelector(".mrp")
+    let discount = document.querySelector(".discount")
+    let total = document.querySelector(".total")
+    form.addEventListener("submit", store)
+    let name = document.getElementById("name")
+    let number = document.getElementById("number")
+    let address = document.getElementById("address")
+    mrp.textContent = "Rs " + price_obj.mrp 
+    discount.textContent = "-Rs " + price_obj.discount 
+    total.textContent = "Rs " + price_obj.total 
+    let para = document.getElementById("something")
+
+    function store() {
+        event.preventDefault()
+        let obj = {}
+        obj.name = name.value
+        obj.address = address.value 
+        obj.number = number.value 
+        localStorage.setItem("obj", JSON.stringify(obj))
+        // window.open("final_address.html")
+        window.location.href="final_address.html"
+    }
+</script>
